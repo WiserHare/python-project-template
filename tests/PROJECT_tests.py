@@ -2,10 +2,10 @@ from nose import *
 import PROJECT.MODULE
 
 
-def setup(): print "Set up your tests"
+def setup(): print("Set up your tests")
 
 
-def teardown(): print "Clean up after the tests"
+def teardown(): print("Clean up after the tests")
 
 
 @with_setup(setup, teardown)
